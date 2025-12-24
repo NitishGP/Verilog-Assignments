@@ -1,0 +1,55 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Tulsi/scaledge code/2X1Mux
+vmux2x1
+Z1 !s110 1737201487
+!i10b 1
+!s100 cUH>VM`mQP9P><lXgm35K2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I_::XULY8XEjLN8XF52BoW0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1737201137
+8mux2x1.v
+Fmux2x1.v
+!i122 8
+L0 1 17
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1737201486.000000
+!s107 mux2x1.v|tb.v|
+Z6 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z7 tCvgOpt 0
+vtb
+R1
+!i10b 1
+!s100 D]eM^>]Xo^HMX]<9mB9j32
+R2
+Ik=1c>?g[`aAYVI:aBoQkk2
+R3
+R0
+w1737201483
+8tb.v
+Ftb.v
+!i122 8
+L0 2 26
+R4
+r1
+!s85 0
+31
+R5
+Z8 !s107 mux2x1.v|tb.v|
+R6
+!i113 1
+R7

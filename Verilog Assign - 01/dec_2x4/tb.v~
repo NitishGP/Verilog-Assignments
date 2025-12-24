@@ -1,0 +1,17 @@
+`include "enc_1x2.v"
+module tb();
+	reg en,i;
+	wire [1:0]Y;
+
+	enc_1x2 dut(en,i,Y);
+
+	initial begin
+		en=1;i=0;#10;
+		$display("en=%0d i=%0d y=%b", en, i, Y);
+
+		en=0;i=1;#10;
+		$display("en=%0d i=%0d y=%b", en, i, Y);
+
+
+	end
+endmodule

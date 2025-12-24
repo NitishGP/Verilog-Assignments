@@ -1,0 +1,35 @@
+`include "mux.v"
+module tb();
+	reg [7:0] I;
+	reg [2:0] S;
+	wire y;
+
+	mux dut(I,S,y);
+	initial begin
+		S=3'b000;I=7'b0000001;#10;
+		$display("S=%b I=%b y=%0d", S,I,y);
+
+		S=3'b001;I=7'b0011001;#10;
+		$display("S=%b I=%b y=%0d", S,I,y);
+
+		S=3'b010;I=7'b1110001;#10;
+		$display("S=%b I=%b y=%0d", S,I,y);
+
+		S=3'b011;I=7'b0111101;#10;
+		$display("S=%b I=%b y=%0d", S,I,y);
+
+		S=3'b100;I=7'b1010001;#10;
+		$display("S=%b I=%b y=%0d", S,I,y);
+
+		S=3'b101;I=7'b0100101;#10;
+		$display("S=%b I=%b y=%0d", S,I,y);
+
+		S=3'b110;I=7'b0000111;#10;
+		$display("S=%b I=%b y=%0d", S,I,y);
+
+		S=3'b111;I=7'b1101101;#10;
+		$display("S=%b I=%b y=%0d", S,I,y);
+
+	end
+
+endmodule

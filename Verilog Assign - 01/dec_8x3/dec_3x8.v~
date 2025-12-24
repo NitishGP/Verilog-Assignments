@@ -1,0 +1,33 @@
+module dec_3x8(en,I,Y);
+	input [2:0]I;
+	input en;
+	output reg [7:0]Y;
+
+	always @(*) begin
+		if (en==0) begin
+			case(I)
+				3'b000 : 8'b10000000;
+
+				3'b000 : 8'b01000000;
+
+				3'b000 : 8'b00100000;
+
+				3'b000 : 8'b00010000;
+
+				3'b000 : 8'b00001000;
+
+				3'b000 : 8'b00000100;
+
+				3'b000 : 8'b00000010;
+
+				3'b000 : 8'b00000001;
+
+
+			endcase
+
+		end
+		else begin
+			Y=8'b1;
+		end
+	end
+endmodule

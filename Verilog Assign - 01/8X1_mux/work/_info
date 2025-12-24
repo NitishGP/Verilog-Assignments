@@ -1,0 +1,78 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Tulsi/OneDrive/Desktop/scaledge code/8X1_mux
+vmux
+!s110 1737214326
+!i10b 1
+!s100 ^QS6lzA6b<SHhP@036CHI2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IW6Kab:m;Kl`k^LgPZUZIe1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1737214306
+8mux.v
+Fmux.v
+!i122 0
+Z3 L0 1 22
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1737214325.000000
+!s107 mux.v|tb.v|
+Z5 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z6 tCvgOpt 0
+vmux_8X1
+Z7 !s110 1737214456
+!i10b 1
+!s100 YRP6ka>Kzm:CPkGe?Nn8o3
+R1
+IoM=KAWEZhH;?OAXgmWnZ;1
+R2
+R0
+Z8 w1737214430
+8mux_8X1.v
+Fmux_8X1.v
+!i122 1
+R3
+R4
+r1
+!s85 0
+31
+Z9 !s108 1737214456.000000
+!s107 mux_8X1.v|tb.v|
+R5
+!i113 1
+R6
+nmux_8@x1
+vtb
+R7
+!i10b 1
+!s100 LNN?aY>R>6ICjfhgf<UgC1
+R1
+IN]EJOMcQYCWkol[RhZOFT1
+R2
+R0
+R8
+8tb.v
+Ftb.v
+!i122 1
+L0 2 34
+R4
+r1
+!s85 0
+31
+R9
+Z10 !s107 mux_8X1.v|tb.v|
+R5
+!i113 1
+R6

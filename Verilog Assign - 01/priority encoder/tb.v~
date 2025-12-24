@@ -1,0 +1,20 @@
+`include "penc_3x8.v"
+module tb();
+	reg en;
+	reg [7:0]Y;
+
+	wire [2:0]I;
+
+	penc_3x8 dut(.en(en), .I(I), .Y(Y));
+
+	initial begin
+		
+		en=1;Y=8'b11111111;#50;
+		$display("en=%0d Y=%b I=%b", en, Y, I);
+
+		en=0;Y=8'b11111111;#50;
+		$display("en=%0d Y=%b I=%b", en, Y, I);
+
+
+	end 
+endmodule

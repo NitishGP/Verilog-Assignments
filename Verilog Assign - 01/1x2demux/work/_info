@@ -1,0 +1,77 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Tulsi/scaledge code/1x2demux
+vdemux1to2
+!s110 1737217258
+!i10b 1
+!s100 31l?RB@?zL?gg<GoFgYk@1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXcfVGe@>3N_^_=RK^aH0L0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1737217141
+Z3 8demux1x2.v
+Z4 Fdemux1x2.v
+!i122 0
+Z5 L0 1 15
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1737217258.000000
+!s107 demux1x2.v|tb.v|
+Z7 !s90 -reportprogress|300|tb.v|
+!i113 1
+Z8 tCvgOpt 0
+vdemux1x2
+Z9 !s110 1737349847
+!i10b 1
+!s100 =8[WW7M@USbA^T1T8cW<S0
+R1
+IDC?dno?RhzjE8QzA=WJ@L2
+R2
+R0
+w1737349825
+R3
+R4
+!i122 9
+R5
+R6
+r1
+!s85 0
+31
+Z10 !s108 1737349847.000000
+Z11 !s107 demux1x2.v|tb.v|
+R7
+!i113 1
+R8
+vtb
+R9
+!i10b 1
+!s100 S;DRDn;]>ckmhYS=9[:JH1
+R1
+IT8zcPAXaco86Ql?3<3<5[0
+R2
+R0
+w1737291845
+8tb.v
+Ftb.v
+!i122 9
+L0 2 23
+R6
+r1
+!s85 0
+31
+R10
+R11
+R7
+!i113 1
+R8
